@@ -22,7 +22,7 @@
     "release": true,
     "releaseName": "v${version}",
     "releaseNotes": null,
-    "preRelease": true,
+    "preRelease": false,
     "draft": false,
     "tokenRef": "GITHUB_TOKEN_RELEASE_IT",
     "assets": null,
