@@ -1,7 +1,7 @@
 {
   "hooks": {},
   "git": {
-    "changelog": "git log --pretty=format:\"* %s (%h)\" ${from}...${to}",
+    "changelog": "git log --pretty=format:\"# %s: <%ce> (%h)%n%b\" ${from}...${to}",
     "requireCleanWorkingDir": true,
     "requireBranch": false,
     "requireUpstream": true,
