@@ -20,10 +20,10 @@
   },
   "github": {
     "release": true,
-    "releaseName": "Release ${version}",
+    "releaseName": "v${version}",
     "releaseNotes": null,
     "preRelease": true,
-    "draft": true,
+    "draft": false,
     "tokenRef": "GITHUB_TOKEN_RELEASE_IT",
     "assets": null,
     "host": null,
